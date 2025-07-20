@@ -17,7 +17,7 @@ public class Program
 
     private static void Main(string[] args)
     {
-        var botClient = new TelegramBotClient("7096993951:AAF--b3vSpleRvigHfbsdGll1VyLjsTAb38");
+        var botClient = new TelegramBotClient("BOT_TOKEN");
 
         using var cts = new CancellationTokenSource();
 
